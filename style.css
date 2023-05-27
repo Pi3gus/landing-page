@@ -74,4 +74,53 @@ header{
     padding: 0.4em 0.7em;
     color: var(--white);
     font-weight: bold;
+    cursor: pointer;
+}
+article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em;
+}
+article > p{
+    color: var(--dark-blue);
+    font-size: 36px;
+    font-weight: bold;
+    
+}
+.boxes{
+    display: flex;
+    margin-top: 3.5em;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.tile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.tile img{
+    border-radius: 2em;
+    border: 2px solid var(--blue);
+    width: 180px;
+}
+.tile p{
+    width: 160px;
+    color: var(--dark-blue);
+}
+section{
+    background-color: var(--grey);
+    display: flex;
+    flex-direction: column;
+}
+section p{
+    font-size: 36px;
+    color: var(--dark-blue);
+    font-style: italic;
+    font-weight: lighter;
+}
+section span{
+    font-weight: bolder;
 }
