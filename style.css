@@ -114,6 +114,7 @@ section{
     background-color: var(--grey);
     display: flex;
     flex-direction: column;
+    padding: 5em 15%;
 }
 section p{
     font-size: 36px;
@@ -123,4 +124,39 @@ section p{
 }
 section span{
     font-weight: bolder;
+    text-align: right;
+}
+.baner{
+    background-color: #3882f6;
+    display: flex;
+    margin: 5em 25%;
+    padding: 2em;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5em;
+}
+.text{
+    color: var(--white);
+}
+.text  p:nth-child(1){
+    font-weight: bolder;
+    font-size: 19px;
+    margin-bottom: 0.4em;
+}
+.baner button{
+    height: auto;
+    width: 6em;
+    padding: 0.4em 1em;
+    background-color: var(--blue);
+    border: 2px solid var(--white);
+    color: var(--white);
+    border-radius: 0.4em;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer{
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 1em;
+    text-align: center;
 }
